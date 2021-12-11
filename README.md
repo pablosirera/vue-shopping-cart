@@ -1,29 +1,39 @@
 # vue-shopping-cart
 
-## Project setup
-```
-npm install
+## Stack I used
+
+- Vue 2
+- Vuex
+- TypeScript
+- Jest
+- Vue Test Utils
+- Mobile First
+- Resposive Web Design
+- Unit Testing
+- Atomic components
+
+## 🔧 Project setup
+
+```sh
+// Install dependencies
+$ npm install
+
+// Compiles and hot-reloads for development
+$ npm run serve
+
+// Compiles and minifies for production
+$ npm run build
+
+// Run unit tests
+$ npm run test:unit
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Run mock data
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```sh
+// Install dependencies
+$ cd ./server-api && npm install
 
-### Run your unit tests
+// Run server
+$ npm run start
 ```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
